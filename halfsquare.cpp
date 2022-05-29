@@ -4,11 +4,11 @@ using std::cin;
 
 int main () {
 
-    for(int lineNum = 0; lineNum < 5; lineNum++){
-        for(int hashNum = 0; hashNum <= 5; hashNum++){
+    for(int lineNum = 1; lineNum <= 5; lineNum++){
+        for(int hashNum = 1; hashNum <= 6 - lineNum; hashNum++){
         cout << "#";
         }
-        cout << "\n";
+    cout << "\n";
     }
     
 }
